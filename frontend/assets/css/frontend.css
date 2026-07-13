@@ -1,0 +1,80 @@
+/* Woo Dynamic Discount Rules – Frontend CSS */
+
+.wddrm-pricing-table-container {
+    margin: 20px 0;
+    padding: 15px;
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.02);
+    font-family: inherit;
+}
+
+.wddrm-pricing-table-title {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #333333;
+    border-bottom: 2px solid #2e7d32;
+    padding-bottom: 6px;
+    display: inline-block;
+}
+
+.wddrm-pricing-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+    text-align: left;
+}
+
+.wddrm-pricing-table th,
+.wddrm-pricing-table td {
+    padding: 10px 12px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.wddrm-pricing-table th {
+    background-color: #fafafa;
+    font-weight: 600;
+    color: #666666;
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 0.5px;
+}
+
+.wddrm-pricing-table tr:hover td {
+    background-color: #f7f9fc;
+}
+
+.wddrm-tier-base-row td {
+    color: #888888;
+}
+
+.wddrm-discount-badge {
+    background-color: #e8f5e9;
+    color: #2e7d32;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 12px;
+    display: inline-block;
+}
+
+.wddrm-discount-badge-cell {
+    vertical-align: middle;
+}
+
+/* Strikeout price styles on shop/single pages */
+.price del {
+    color: #a0a0a0 !important;
+    font-size: 0.85em;
+    margin-right: 6px;
+    text-decoration: line-through;
+}
+
+.price ins {
+    color: #2e7d32 !important;
+    text-decoration: none;
+    font-weight: 700;
+}
